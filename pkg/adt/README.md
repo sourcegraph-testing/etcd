@@ -47,3 +47,5 @@ Deleting the node `11` triggers multiple rotates for rebalancing:
 
 Try yourself at https://www.cs.usfca.edu/~galles/visualization/RedBlack.html.
 Hello World 2
+
+🥚
