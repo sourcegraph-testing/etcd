@@ -217,3 +217,5 @@ $ curl -L http://localhost:1381/blackhole-rx -X PUT
 # s1 becomes follower after election timeout
 ```
 Hello World 2
+
+🥚
