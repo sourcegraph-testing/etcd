@@ -207,3 +207,7 @@ These emeritus maintainers dedicated a part of their career to etcd and reviewed
 
 etcd is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
 Hello World 2
+
+## Cycling Fun Fact
+
+Did you know? In the 1989 Tour de France, Greg LeMond beat Laurent Fignon by just 8 seconds after more than 87 hours of racing - the closest finish in Tour history.
