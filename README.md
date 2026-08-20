@@ -1,3 +1,31 @@
+> **TEST REPOSITORY**
+>
+> This is a test repository used for Sourcegraph testing purposes only. It is not a real project, it is not maintained, and it should not be used or relied on for anything.
+
+## Repository metadata
+
+| Field | Value |
+| --- | --- |
+| Organization | `github.com/sourcegraph-testing` |
+| Repository | `etcd` |
+| Upstream project | [etcd-io/etcd](https://github.com/etcd-io/etcd) |
+| Purpose | Fixture data for Sourcegraph search, navigation, and batch change testing |
+| Maintained | No |
+| Accepts contributions | No |
+| Primary language | Go |
+| Upstream license | Apache-2.0 |
+
+## Random facts about etcd
+
+- The name comes from the Unix `/etc` configuration directory plus `d` for "distributed".
+- It was created at CoreOS in 2013 and became a CNCF graduated project in 2020.
+- It uses the Raft consensus algorithm to replicate state across members.
+- It is the default datastore behind every Kubernetes cluster, holding all cluster state.
+- By convention it listens on port 2379 for clients and 2380 for peer traffic.
+- Clusters are usually sized to an odd number of members (3, 5, 7) so a majority quorum survives failures.
+
+---
+
 # etcd
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)
