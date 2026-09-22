@@ -5,7 +5,7 @@
 [![Build Status Travis](https://img.shields.io/travis/etcd-io/etcdlabs.svg?style=flat-square&&branch=master)](https://travis-ci.com/etcd-io/etcd)
 [![Build Status Semaphore](https://semaphoreci.com/api/v1/etcd-io/etcd/branches/master/shields_badge.svg)](https://semaphoreci.com/etcd-io/etcd)
 [![Docs](https://img.shields.io/badge/docs-latest-green.svg)](https://etcd.io/docs)
-[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/etcd-io/etcd)
+[![Godoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/etcd-io/etcd)
 [![Releases](https://img.shields.io/github/release/etcd-io/etcd/all.svg?style=flat-square)](https://github.com/etcd-io/etcd/releases)
 [![LICENSE](https://img.shields.io/github/license/etcd-io/etcd.svg?style=flat-square)](https://github.com/etcd-io/etcd/blob/master/LICENSE)
 
@@ -27,7 +27,7 @@ etcd is used [in production by many companies](./ADOPTERS.md), and the developme
 See [etcdctl][etcdctl] for a simple command line client.
 
 [raft]: https://raft.github.io/
-[k8s]: http://kubernetes.io/
+[k8s]: https://kubernetes.io/
 [doorman]: https://github.com/youtube/doorman
 [locksmith]: https://github.com/coreos/locksmith
 [vulcand]: https://github.com/vulcand/vulcand
@@ -51,7 +51,7 @@ Time:
 - [May 30th, 2019 11:00 AM video](https://youtu.be/2t1R5NATYG4)
 - [Jul 11th, 2019 11:00 AM video](https://youtu.be/k_FZEipWD6Y)
 - [Jul 25, 2019 11:00 AM video](https://youtu.be/VSUJTACO93I)
-- [Aug 22, 2019 11:00 AM video](https://youtu.be/6IBQ-VxQmuM) 
+- [Aug 22, 2019 11:00 AM video](https://youtu.be/6IBQ-VxQmuM)
 - [Sep 19, 2019 11:00 AM video](https://youtu.be/SqfxU9DhBOc)
 - Nov 14, 2019 11:00 AM
 - Dec 12, 2019 11:00 AM
@@ -80,7 +80,7 @@ Join by phone: +1 405-792-0633‬ PIN: ‪299 906‬#
 
 The easiest way to get etcd is to use one of the pre-built release binaries which are available for OSX, Linux, Windows, and Docker on the [release page][github-release].
 
-For more installation guides, please check out [play.etcd.io](http://play.etcd.io) and [operating etcd](https://etcd.io/docs/latest/op-guide).
+For more installation guides, please check out [play.etcd.io](https://play.etcd.io) and [operating etcd](https://etcd.io/docs/latest/op-guide).
 
 For those wanting to try the very latest version, [build the latest version of etcd][dl-build] from the `master` branch. This first needs [*Go*](https://golang.org/) installed (version 1.13+ is required). All development occurs on `master`, including new features and bug fixes. Bug fixes are first targeted at `master` and subsequently ported to release branches, as described in the [branch management][branch-management] guide.
 
@@ -122,14 +122,14 @@ etcdctl get mykey
 
 etcd is now running and serving client requests. For more, please check out:
 
-- [Interactive etcd playground](http://play.etcd.io)
+- [Interactive etcd playground](https://play.etcd.io)
 - [Animated quick demo](https://etcd.io/docs/latest/demo)
 
 ### etcd TCP ports
 
 The [official etcd ports][iana-ports] are 2379 for client requests, and 2380 for peer communication.
 
-[iana-ports]: http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt
+[iana-ports]: https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt
 
 ### Running a local etcd cluster
 
@@ -200,8 +200,8 @@ See [PR management](Documentation/triage/PRs.md) for guidelines on how pull requ
 
 These emeritus maintainers dedicated a part of their career to etcd and reviewed code, triaged bugs, and pushed the project forward over a substantial period of time. Their contribution is greatly appreciated.
 
-* Fanmin Shi 
-* Anthony Romano 
+* Fanmin Shi
+* Anthony Romano
 
 ### License
 
