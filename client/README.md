@@ -1,4 +1,4 @@
-# etcd/client
+# etcd/client 🐣
 
 etcd/client is the Go client library for etcd.
 

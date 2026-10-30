@@ -1,4 +1,4 @@
-
+ 🐣
 ## Red-Black Tree
 
 *"Introduction to Algorithms" (Cormen et al, 3rd ed.), Chapter 13*

@@ -1,4 +1,4 @@
-etcdctl
+etcdctl 🐣
 ========
 
 `etcdctl` is a command line client for [etcd][etcd].
